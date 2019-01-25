@@ -20,7 +20,7 @@ import java.util.zip.ZipOutputStream;
 public class TestHelloFC {
 //    public SimpleResponseEntity handleRequest() {
 //        String endpoint = "oss-cn-shanghai.aliyuncs.com";
-//        String bucketName = "xujiawei";
+//        String bucketName = "";
 //        OSSClient client = new OSSClient(
 //                "oss-cn-shanghai.aliyuncs.com", "LTAIIndul6r2Ay2B", "HPUBY3tRIZ9Npdo6LhJU9IDTwBhkkV");
 //        List<String> keys = new ArrayList<>();
@@ -74,7 +74,7 @@ public class TestHelloFC {
 //    }
     public static void main(String[] args) {
         String endpoint = "oss-cn-shanghai.aliyuncs.com";
-        String bucketName = "xujiawei";
+        String bucketName = "";
         SimpleRequestEntity simpleRequestEntity = new SimpleRequestEntity();
         simpleRequestEntity.setBucket(endpoint);
         simpleRequestEntity.setEndpoint(bucketName);
